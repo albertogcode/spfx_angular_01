@@ -1,0 +1,17 @@
+<h3>Lista {{listName}} {{itemsCount}}</h3>
+<span *ngIf="isLoadingListName">Cargando...</span>
+<button (click)="getItems()">Cargar elementos</button>
+<button (click)="addItem()">Insertar elemento</button>
+<div>
+    <div style="float: left">
+        <h3>Elementos</h3>
+        <ul>
+            <li name="liItems" *ngFor="let item of items" (click)="getDetail(item.Id)">{{item.Id}} - {{item.Title}}</li>
+        </ul>
+    </div>
+    <div *ngIf="showDetail" style="float: left;padding-top: 20px; background-color: lightgray">
+        {{body}}
+    </div>
+</div>
+<br>
+<div id='dvMessage' style="clear: both;">{{message}}</div>
