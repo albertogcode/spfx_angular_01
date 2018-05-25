@@ -24,3 +24,18 @@ gulp test - TODO
 gulp serve - TODO
 gulp bundle - TODO
 gulp package-solution - TODO
+
+### Mis apuntes
+
+certificado de confianza
+gulp trust-dev-cert
+gulp serve
+
+yo @microsoft/sharepoint
+
+
+http://blog.hubfly.com/solutions/how-to-bundle-angular-4-html-template-files-in-spfx
+
+http://blog.hubfly.com/solutions/how-to-integrate-sharepoint-framework-spfx-with-angular-4    
+
+https://github.com/maliksahil/SPFxAngularCLI
